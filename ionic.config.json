@@ -1,0 +1,7 @@
+{
+  "name": "yellow_app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
