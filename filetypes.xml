@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="postcode" type="HTML" />
+      <mapping pattern="www" type="PLAIN_TEXT" />
+      <mapping pattern="Postcode API" type="PLAIN_TEXT" />
+      <mapping pattern="programming" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
