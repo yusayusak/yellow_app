@@ -6,6 +6,7 @@
       <mapping pattern="www" type="PLAIN_TEXT" />
       <mapping pattern="Postcode API" type="PLAIN_TEXT" />
       <mapping pattern="programming" type="PLAIN_TEXT" />
+      <mapping ext="map" type="tsconfig" />
     </extensionMap>
   </component>
 </application>
