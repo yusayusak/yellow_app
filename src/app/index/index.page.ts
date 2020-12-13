@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MeasurementPage} from '../measurement/measurement.page';
+import {IonNav} from '@ionic/angular';
 
 @Component({
   selector: 'app-index',
@@ -7,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndexPage implements OnInit {
 
-  constructor() { }
+  public measurementPage = MeasurementPage;
+  constructor(public nav: IonNav) { }
 
   ngOnInit() {
   }

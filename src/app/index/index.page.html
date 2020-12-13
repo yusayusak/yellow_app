@@ -6,7 +6,15 @@
 
 <ion-content>
   <p>Knock knock, its the united states</p>
-  <p><a routerLink="/measurement">with huge boats</a></p>
-  <p><a routerLink="/tab2">with guns</a></p>
-  <p><a routerLink="/tab3">gunboats</a></p>
+  <ion-button (click)="nav.push(measurementPage)">
+    With huge boats
+  </ion-button>
+  <ion-button (click)="nav.push(measurementPage)">
+    With guns
+  </ion-button>
+  <ion-button (click)="nav.push(measurementPage)">
+    Gunboats
+  </ion-button>
+
+
 </ion-content>

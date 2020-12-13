@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {IonNav} from '@ionic/angular';
 
 @Component({
   selector: 'app-measurement',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MeasurementPage implements OnInit {
 
-  constructor() { }
+  constructor(public nav: IonNav) { }
 
   ngOnInit() {
   }
