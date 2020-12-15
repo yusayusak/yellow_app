@@ -19,7 +19,8 @@ export class DatabaseService {
     })
         .then((db: SQLiteObject) => {
           this.db = db;
-          this.db.executeSql('create table if not exists measurements(name VARCHAR(32))', [])
+          this.db.executeSql(
+              'create table if not exists measurements(id integer(16) PRIMARY KEY AUTOINCREMENT , BAC FLOAT(6, 5), note VARCHAR(255), date TIMESTAMP(32)); ', [])
               .then(() => console.log('Executed SQL'))
               .catch(e => console.log(e));
         }).catch(e => console.log(e));
