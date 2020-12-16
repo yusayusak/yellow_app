@@ -5,15 +5,15 @@
 </ion-header>
 
 <ion-content>
-  <p>Knock knock, its the united states</p>
+  <p>Normaal de index, maar nu een testpagina</p>
   <ion-button (click)="nav.push(measurementPage)">
-    With huge boats
+    Metingen
   </ion-button>
   <ion-button (click)="database.insertMeasurement(0.69, 'an empty string');">
-    With guns
+    Voeg een meting toe
   </ion-button>
   <ion-button (click)="loadData()">
-    Gunboats
+    Laad de metingen
   </ion-button>
   <p>{{error}}</p>
   <ion-list *ngFor="let measurement of measurements">
